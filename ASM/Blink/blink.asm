@@ -1,3 +1,4 @@
+: 作者　上間健
 .include "tn85def.inc"
 
 .def temp = R16
