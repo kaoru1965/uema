@@ -8,3 +8,5 @@ raspian:動くと思います。笹川さんテストよろしくお願いしま
 
 
 　　　　　　　　　　　　　　　上間健
+
+FreeBSD compile OK!!
