@@ -1,4 +1,4 @@
-#if !(defined(__APPLE__)||defined(__OpenBSD__))
+#if !(defined(__APPLE__)||defined(__OpenBSD__)||(__FreeBSD__))
 #include <stdio_ext.h>
 #endif
 #include <stdlib.h>

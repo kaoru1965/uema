@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <setjmp.h>
-#if !(defined(__APPLE__)||defined(__OpenBSD__))
+#if !(defined(__APPLE__)||defined(__OpenBSD__)||defined(__FreeBSD__))
 #include <stdio_ext.h>
 #endif
 #include "npl.h"

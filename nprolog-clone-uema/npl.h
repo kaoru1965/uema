@@ -222,7 +222,7 @@ extern int error_stream;
 #define ON      1
     
 
-#if defined(__APPLE__)||defined(__OpenBSD__)
+#if defined(__APPLE__)||defined(__OpenBSD__)||defined(__FreeBSD__)
 #define FLUSH               fpurge(stdin);
 #else
 #define FLUSH               __fpurge(stdin); 
