@@ -1,0 +1,9 @@
+gcc -O2 -DUSER_BOOKMARKS -DHIDASP_ONLY -DAVRSPX=1 -DLINUX -DTIME_DISPLAY -o hidspx avrspx.c hwctrl.c utils.c hidasp.c -lusb
+make: 'hidspx' is up to date.
+rm -rf /usr/local/bin/hidspx
+chmod 644 *.c *.h *.ini *.txt
+install -m 4755 hidspx /usr/local/bin
+install -m 644 hidspx.ini /usr/local/bin/hidspx.ini
+install -m 644 fuse.txt /usr/local/bin
+rm -fv hidspx *.o *~
+`hidspx' を削除しました
